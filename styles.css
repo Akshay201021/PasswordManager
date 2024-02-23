@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#infoBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoBox {
+    background-color:cornflowerblue;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Add margin-right to create space between buttons */
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+/* Add styling for unlock button */
+#unlockButton {
+    background-color: #3498db;
+}
+#unlockButton:hover {
+    background-color: #2980b9;
+}
+
+/* Add styling for lock button */
+#lockButton {
+    background-color: #e74c3c;
+}
+
+#lockButton:hover {
+    background-color: #c0392b;
+}
+
+/* Add styling for save button */
+.saveButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.saveButton:hover {
+    background-color: #45a049;
+}
